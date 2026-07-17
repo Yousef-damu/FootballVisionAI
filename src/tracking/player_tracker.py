@@ -15,7 +15,7 @@ from ultralytics import YOLO
 
 def main() -> None:
     # 入力動画のパス
-    video_path = Path("videos/raw/test.mp4")
+    video_path = Path("videos/raw/test01.mp4")
 
     # 出力動画のパス
     output_dir = Path("outputs/videos")
